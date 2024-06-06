@@ -1,0 +1,128 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "CodeNewRoman Nerd Font";
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(21, 18, 27, 0);
+    color: #cdd6f4;
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+#workspaces button {
+    padding: 2px;
+    color: #F7EFED;
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+    color: #7FA7B8;
+}
+
+#workspaces button:hover {
+    background: #7FA7B8;
+    color: #F7EFED;
+}
+
+#custom-power_profile,
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#bluetooth,
+#workspaces #tray,
+#backlight {
+    background: #33546D;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 10px;
+}
+
+#workspaces {
+    background: #33546D;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#tray {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#window {
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#network {
+    color: #F7EFED;
+    border-radius: 10px 0px 0px 10px;
+    border-left: 0px;
+    border-right: 0px;
+    background: #2468d4;
+}
+
+#bluetooth {
+    color: #F7EFED;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px;
+    background: #2468d4;
+}
+
+#custom-power_profile {
+    color: #F7EFED;
+    border-left: 0px;
+    border-right: 0px;
+    background: #cd3043;
+}
+
+#clock {
+    color: #F7EFED;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 10px;
+    border-right: 0px;
+    background: #cd3043;
+}
+
+#battery {
+    color: #F7EFED;
+    border-radius: 0 10px 10px 0;
+    margin-right: 10px;
+    border-left: 0px;
+    background: #cd3043;
+}
+
+#backlight {
+    border-radius: 10px 0px 0px 10px;
+    color: #7FA7B8;
+}
+
+#pulseaudio {
+    color: #7FA7B8;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#pulseaudio.microphone {
+    color: #7FA7B8;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px;
+}
